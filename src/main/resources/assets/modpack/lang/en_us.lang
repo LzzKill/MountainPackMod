@@ -1,0 +1,7 @@
+item.item_iron_lattice.name=Iron Lattice
+item.item_copper_lattice.name=Copper Lattice
+item.item_emerald_lattice.name=Emerald Lattice
+item.item_gold_lattice.name=Gold Lattice
+item.item_quartz_lattice.name=Quartz Lattice
+item.item_redstone_lattice.name=Redstone Lattice
+itemGroup.modpack=Mod Pack

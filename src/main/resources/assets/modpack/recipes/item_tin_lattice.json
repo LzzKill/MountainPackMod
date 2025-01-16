@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "a a",
+    " a ",
+    "a a"
+  ],
+  "key":
+  {
+    "a": {
+      "type": "forge:ore_dict",
+      "ore": "ingotTin"
+    }
+  },
+  "result":
+  {
+    "item": "modpack:item_tin_lattice",
+    "count": 1
+  }
+}

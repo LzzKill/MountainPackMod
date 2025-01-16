@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "a a",
+    " a ",
+    "a a"
+  ],
+  "key":
+  {
+    "a": {
+      "type": "forge:ore_dict",
+      "ore": "gemEmerald"
+    }
+  },
+  "result":
+  {
+    "item": "modpack:item_emerald_lattice",
+    "count": 1
+  }
+}

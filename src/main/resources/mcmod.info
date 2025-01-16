@@ -1,0 +1,16 @@
+[
+{
+  "modid": "modpack",
+  "name": "Mountain Pack Mod",
+  "description": "本Mod只为整合包",
+  "version": "1.0.0",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Cola Leo", "LzzKill"],
+  "credits": "ALL OF THE PACKAGE MEMBER AND FORGE TERM.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

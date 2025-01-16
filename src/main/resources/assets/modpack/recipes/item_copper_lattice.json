@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "a a",
+    " a ",
+    "a a"
+  ],
+  "key":
+  {
+    "a": {
+      "type": "forge:ore_dict",
+      "ore": "ingotCopper"
+    }
+  },
+  "result":
+  {
+    "item": "modpack:item_copper_lattice",
+    "count": 1
+  }
+}

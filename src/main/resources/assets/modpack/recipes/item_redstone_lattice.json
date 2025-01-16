@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "a a",
+    " a ",
+    "a a"
+  ],
+  "key":
+  {
+    "a": {
+      "type": "forge:ore_dict",
+      "ore": "dustRedstone"
+    }
+  },
+  "result":
+  {
+    "item": "modpack:item_redstone_lattice",
+    "count": 1
+  }
+}
