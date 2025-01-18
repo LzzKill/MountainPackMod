@@ -40,7 +40,7 @@ public class TheModPack
         MinecraftForge.EVENT_BUS.register(this);
     }
 
-    @SidedProxy(clientSide = "com.lzzkill.themodpack.proxy.CommonProxy", serverSide = "com.lzzkill.themodpack.proxy.ClientProxy")
+    @SidedProxy(clientSide = "com.lzzkill.mountain.proxy.CommonProxy", serverSide = "com.lzzkill.mountain.proxy.ClientProxy")
     public static CommonProxy commonProxy;
 
     @Mod.EventHandler

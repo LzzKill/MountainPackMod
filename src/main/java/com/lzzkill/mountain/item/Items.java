@@ -6,6 +6,9 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Mod.EventBusSubscriber(modid = TheModPack.MODID)
 public class Items
 {
@@ -18,9 +21,20 @@ public class Items
     public static final Item TIN_LATTICE = new ItemLattice("item_tin_lattice");
 //    public static final Item _LATTICE = new ItemLattice("item__lattice");
 
-    @SubscribeEvent
-    public static void ItemRegister(RegistryEvent.Register<Item> registryEvent)
-    {
-        registryEvent.getRegistry().registerAll(COPPER_LATTICE, EMERALD_LATTICE, GOLD_LATTICE, IRON_LATTICE, QUARTZ_LATTICE, REDSTONE_LATTICE, TIN_LATTICE);
+    private static final List<Item> ITEMS = new ArrayList<>();
+
+    static {
+        ITEMS.add(COPPER_LATTICE);
+        ITEMS.add(EMERALD_LATTICE);
+        ITEMS.add(GOLD_LATTICE);
+        ITEMS.add(IRON_LATTICE);
+        ITEMS.add(QUARTZ_LATTICE);
+        ITEMS.add(REDSTONE_LATTICE);
+        ITEMS.add(TIN_LATTICE);
     }
+
+    public static Item[] all() {
+        return ITEMS.toArray(new Item[0]);
+    }
+
 }
